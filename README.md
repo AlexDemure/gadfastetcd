@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/AlexDemure/gadfastetdc">
+  <a href="https://github.com/AlexDemure/gadfastetcd">
     <a href="https://ibb.co/27z10Gjp"><img src="https://i.ibb.co/rGBRKDZX/logo.png" alt="logo" border="0"></a>
   </a>
 </p>
@@ -13,7 +13,7 @@
 ### Installation
 
 ```
-pip install gadfastetdc
+pip install gadfastetcd
 ```
 
 ### Usage
@@ -46,7 +46,7 @@ import pydantic
 
 import fastapi
 
-from gadfastetdc import Etcd
+from gadfastetcd import Etcd
 
 class Settings(pydantic.BaseModel):
     class Config:

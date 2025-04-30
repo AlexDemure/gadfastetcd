@@ -5,7 +5,7 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="gadfastetdc",
+    name="gadfastetcd",
     version="0.0.1",
     packages=find_packages(),
     install_requires=requirements,
@@ -15,7 +15,7 @@ setup(
     description="A FastAPI integration with Etcd for managing configuration settings via a RESTful API",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/AlexDemure/gadfastetdc",
+    url="https://github.com/AlexDemure/gadfastetcd",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
